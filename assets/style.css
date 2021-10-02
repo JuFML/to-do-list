@@ -1,0 +1,51 @@
+body {
+  background-image: url('./image/sea-ge1e622589_1920.jpg');
+  background-position: center;
+  background-size: cover;  
+}
+
+.screen {
+  width: 100vw;
+  height: 100vh;
+  background-color: #333;
+  opacity: 0.5;
+  position: absolute;
+  z-index: -1;
+  
+}
+.container {
+  max-width: 400px;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+header {
+  margin-top: 120px;
+}
+
+
+input[type=text],
+input[type=text]:focus {
+  color: #333;
+  border: none;
+  background: #fff;
+  max-width: 400px;
+}
+
+.todos-container li {
+  background: #6796bd;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
