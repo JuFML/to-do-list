@@ -37,7 +37,7 @@ input[type=text]:focus {
   background: #6796bd;
 }
 
-.delete {
+i[data-trash] {
   cursor: pointer;
 }
 
