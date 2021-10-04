@@ -8,8 +8,7 @@ const addTodo = inputValue => {
             `<li class="list-group-item d-flex justify-content-between align-items-center" data-todo="${inputValue}">
                 <span>${inputValue}</span>
                 <i class="far fa-trash-alt" data-trash="${inputValue}"></i>
-            </li>`      
-        event.target.reset()    
+            </li>`  
     }
 }
 
@@ -19,6 +18,7 @@ form.addEventListener('submit', event => {
     const inputValue = event.target.add.value.trim()
     
     addTodo(inputValue)
+    event.target.reset()
 })
 
 const removeTodo = clickedElement => {
